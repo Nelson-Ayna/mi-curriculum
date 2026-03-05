@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* NAV */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* BOTÓN DEL CV */
+.boton-cv {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: white;
+  color: #0044cc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.boton-cv:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.05);
+}
+
+/* SECCIONES */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0044cc;
+  border-bottom: 2px solid #0044cc;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0044cc;
+  color: white;
+  margin-top: 20px;
+}
